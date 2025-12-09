@@ -1,1 +1,3 @@
 ssh pao@172.18.30.37
+
+cd mushr2_ws/

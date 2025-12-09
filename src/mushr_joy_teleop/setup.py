@@ -28,7 +28,6 @@ setup(
     entry_points={
         'console_scripts': [
 		'joy_teleop = mushr_joy_teleop.joy_teleop_node:main',
-        'joy_to_speed_direct = mushr_joy_teleop.joy_to_speed_direct:main',
         ],
     },
 )
