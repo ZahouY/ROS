@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing mushr_joy_teleop.egg-info/PKG-INFO
+writing dependency_links to mushr_joy_teleop.egg-info/dependency_links.txt
+writing entry points to mushr_joy_teleop.egg-info/entry_points.txt
+writing requirements to mushr_joy_teleop.egg-info/requires.txt
+writing top-level names to mushr_joy_teleop.egg-info/top_level.txt
+reading manifest file 'mushr_joy_teleop.egg-info/SOURCES.txt'
+writing manifest file 'mushr_joy_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr-joy-teleop.egg-link (link to .)
+Installing joy_teleop script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+Installing joy_to_speed_direct script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+
+Installed /home/pao/mushr2_ws/build/mushr_joy_teleop
+running symlink_data
+symbolically linking /home/pao/mushr2_ws/build/mushr_joy_teleop/resource/mushr_joy_teleop -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pao/mushr2_ws/build/mushr_joy_teleop/package.xml -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop

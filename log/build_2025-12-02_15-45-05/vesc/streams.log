@@ -1,0 +1,39 @@
+[0.036s] Invoking command in '/home/pao/mushr2_ws/build/vesc': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.717s] -- Detecting CXX compiler ABI info - done
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.744s] -- Detecting CXX compile features
+[0.745s] -- Detecting CXX compile features - done
+[0.753s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.542s] -- Configuring done
+[1.552s] -- Generating done
+[1.558s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc
+[1.576s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[1.581s] Invoking command in '/home/pao/mushr2_ws/build/vesc': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[1.676s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[1.681s] Invoking command in '/home/pao/mushr2_ws/build/vesc': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc
+[1.700s] -- Install configuration: ""
+[1.701s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[1.702s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[1.702s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[1.703s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[1.703s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.sh
+[1.704s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.dsv
+[1.704s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.bash
+[1.704s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.sh
+[1.704s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.zsh
+[1.705s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.dsv
+[1.705s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/package.dsv
+[1.705s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[1.706s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[1.706s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[1.706s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/package.xml
+[1.712s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc

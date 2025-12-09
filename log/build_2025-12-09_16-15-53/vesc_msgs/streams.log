@@ -1,0 +1,258 @@
+[0.063s] Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[0.705s] -- The C compiler identification is GNU 11.4.0
+[1.239s] -- The CXX compiler identification is GNU 11.4.0
+[1.300s] -- Detecting C compiler ABI info
+[1.519s] -- Detecting C compiler ABI info - done
+[1.534s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.539s] -- Detecting C compile features
+[1.542s] -- Detecting C compile features - done
+[1.550s] -- Detecting CXX compiler ABI info
+[1.796s] -- Detecting CXX compiler ABI info - done
+[1.814s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.815s] -- Detecting CXX compile features
+[1.815s] -- Detecting CXX compile features - done
+[1.827s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.323s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.926s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.988s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.814s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.819s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.897s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.897s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.897s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.898s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.973s] -- Found PythonExtra: .so  
+[6.148s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.201s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.205s] -- Added test 'lint_cmake' to check CMake code style
+[6.208s] -- Added test 'xmllint' to check XML markup files
+[6.216s] -- Configuring done
+[6.336s] -- Generating done
+[6.374s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc_msgs
+[6.429s] Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[6.435s] Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6
+[6.531s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c[0m
+[6.554s] [  1%] Built target vesc_msgs__cpp
+[6.568s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[6.582s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.593s] [ 12%] Built target ament_cmake_python_copy_vesc_msgs
+[6.603s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.617s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_cpp[0m
+[6.619s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.631s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_introspection_c[0m
+[6.645s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_c[0m
+[6.652s] [ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[6.663s] [ 34%] Built target vesc_msgs__rosidl_typesupport_cpp
+[6.674s] [ 45%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[6.675s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[6.676s] [ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[6.689s] [ 78%] Built target vesc_msgs__rosidl_typesupport_c
+[6.777s] [ 78%] Built target vesc_msgs
+[6.849s] [ 80%] Built target vesc_msgs__py
+[6.908s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_py[0m
+[6.981s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[7.031s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_c__pyext[0m
+[7.055s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.063s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[7.075s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.124s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.129s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.225s] [ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[7.260s] [ 98%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[7.264s] [100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.449s] running egg_info
+[7.450s] writing vesc_msgs.egg-info/PKG-INFO
+[7.454s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[7.454s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[7.460s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[7.461s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[7.548s] [100%] Built target ament_cmake_python_build_vesc_msgs_egg
+[7.593s] Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6
+[7.633s] Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_msgs
+[7.656s] -- Install configuration: ""
+[7.656s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[7.657s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.657s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.657s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.657s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h
+[7.657s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h
+[7.658s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.658s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[7.658s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.c
+[7.658s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[7.659s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[7.659s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h
+[7.659s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[7.659s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[7.660s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h
+[7.660s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[7.660s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[7.660s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[7.660s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.c
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h
+[7.661s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h
+[7.662s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[7.662s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[7.662s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[7.663s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.663s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.663s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.663s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[7.664s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[7.664s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[7.664s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[7.664s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.665s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[7.665s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.666s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.666s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.666s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[7.666s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[7.666s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[7.667s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[7.667s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.c
+[7.667s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[7.667s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[7.668s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[7.668s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.668s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[7.669s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[7.669s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.669s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.669s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp
+[7.669s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.670s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.670s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[7.670s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[7.671s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+[7.671s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[7.672s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[7.672s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[7.673s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+[7.673s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+[7.674s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[7.674s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[7.674s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp
+[7.675s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/dds_fastrtps
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[7.676s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[7.677s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[7.678s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[7.679s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[7.679s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[7.679s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[7.679s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[7.679s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[7.680s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[7.681s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info
+[7.682s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[7.682s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[7.682s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[7.682s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[7.682s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs
+[7.682s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.683s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.683s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.683s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.683s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_s.c
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[7.684s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_s.c
+[7.685s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py
+[7.685s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py
+[7.685s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[7.685s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c
+[7.685s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py
+[7.685s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
+[7.789s] Listing '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs'...
+[7.789s] Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py'...
+[7.790s] Listing '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg'...
+[7.811s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.811s] -- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.811s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.811s] -- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.812s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.812s] -- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.812s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+[7.813s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[7.814s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[7.814s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[7.815s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[7.819s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[7.820s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[7.821s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[7.821s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[7.821s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[7.821s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[7.821s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[7.821s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[7.821s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[7.822s] -- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+[7.822s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[7.822s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake
+[7.823s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.823s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.825s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.826s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.826s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.827s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[7.828s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.828s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake
+[7.829s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.830s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.832s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.833s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.834s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[7.834s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.835s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake
+[7.835s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.836s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[7.836s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.837s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.837s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.838s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.838s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.839s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.839s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[7.841s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[7.841s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+[7.855s] Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_msgs

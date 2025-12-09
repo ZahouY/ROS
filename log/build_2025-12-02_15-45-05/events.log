@@ -1,0 +1,1289 @@
+[0.000000] (-) TimerEvent: {}
+[0.002145] (mushr_joy_teleop) JobQueued: {'identifier': 'mushr_joy_teleop', 'dependencies': OrderedDict()}
+[0.002680] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.003107] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/pao/mushr2_ws/install/vesc_msgs')])}
+[0.003309] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/pao/mushr2_ws/install/vesc_msgs')])}
+[0.003380] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/home/pao/mushr2_ws/install/vesc_msgs'), ('vesc_ackermann', '/home/pao/mushr2_ws/install/vesc_ackermann'), ('vesc_driver', '/home/pao/mushr2_ws/install/vesc_driver')])}
+[0.003469] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.020190] (mushr_joy_teleop) JobStarted: {'identifier': 'mushr_joy_teleop'}
+[0.044543] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.046597] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pao/mushr2_ws/src/vesc/vesc_msgs', '-DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs'], 'cwd': '/home/pao/mushr2_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[0.098853] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.212508] (vesc_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300091] (-) TimerEvent: {}
+[0.347661] (vesc_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.367742] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400343] (-) TimerEvent: {}
+[0.501411] (-) TimerEvent: {}
+[0.557011] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.574843] (vesc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.577801] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.579714] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.583287] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601590] (-) TimerEvent: {}
+[0.702578] (-) TimerEvent: {}
+[0.773511] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.796250] (vesc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.797104] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.798778] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.803292] (-) TimerEvent: {}
+[0.804126] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.903585] (-) TimerEvent: {}
+[1.004675] (-) TimerEvent: {}
+[1.105773] (-) TimerEvent: {}
+[1.181911] (vesc_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.205951] (-) TimerEvent: {}
+[1.306899] (-) TimerEvent: {}
+[1.408032] (-) TimerEvent: {}
+[1.509174] (-) TimerEvent: {}
+[1.600656] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.609375] (-) TimerEvent: {}
+[1.613823] (vesc_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.709617] (-) TimerEvent: {}
+[1.717336] (mushr_joy_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mushr_joy_teleop', 'build', '--build-base', '/home/pao/mushr2_ws/build/mushr_joy_teleop/build', 'install', '--record', '/home/pao/mushr2_ws/build/mushr_joy_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pao/mushr2_ws/src/mushr_joy_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pao', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pao', 'OLDPWD': '/home/pao', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'ROS_IP': '10.42.0.1', 'SYSTEMD_EXEC_PID': '2569', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pao/mushr2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'pao', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pao', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pao/mushr2_ws/build/mushr_joy_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pao/mushr2_ws/install/vesc_msgs'}, 'shell': False}
+[1.720410] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.815908] (-) TimerEvent: {}
+[1.944732] (-) TimerEvent: {}
+[2.045740] (-) TimerEvent: {}
+[2.146724] (-) TimerEvent: {}
+[2.247740] (-) TimerEvent: {}
+[2.331422] (mushr_joy_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.333647] (mushr_joy_teleop) StdoutLine: {'line': b'creating ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info\n'}
+[2.334381] (mushr_joy_teleop) StdoutLine: {'line': b'writing ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/PKG-INFO\n'}
+[2.334908] (mushr_joy_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/dependency_links.txt\n'}
+[2.335441] (mushr_joy_teleop) StdoutLine: {'line': b'writing entry points to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/entry_points.txt\n'}
+[2.335703] (mushr_joy_teleop) StdoutLine: {'line': b'writing requirements to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/requires.txt\n'}
+[2.335902] (mushr_joy_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/top_level.txt\n'}
+[2.336448] (mushr_joy_teleop) StdoutLine: {'line': b"writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'\n"}
+[2.341684] (mushr_joy_teleop) StdoutLine: {'line': b"reading manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'\n"}
+[2.343446] (mushr_joy_teleop) StdoutLine: {'line': b"writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'\n"}
+[2.343944] (mushr_joy_teleop) StdoutLine: {'line': b'running build\n'}
+[2.344139] (mushr_joy_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.344383] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build\n'}
+[2.344607] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib\n'}
+[2.344784] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop\n'}
+[2.344966] (mushr_joy_teleop) StdoutLine: {'line': b'copying mushr_joy_teleop/joy_teleop_node.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop\n'}
+[2.346320] (mushr_joy_teleop) StdoutLine: {'line': b'copying mushr_joy_teleop/__init__.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop\n'}
+[2.346738] (mushr_joy_teleop) StdoutLine: {'line': b'running install\n'}
+[2.347721] (mushr_joy_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[2.347937] (-) TimerEvent: {}
+[2.350066] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop\n'}
+[2.350297] (mushr_joy_teleop) StdoutLine: {'line': b'copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_teleop_node.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop\n'}
+[2.350584] (mushr_joy_teleop) StdoutLine: {'line': b'copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/__init__.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop\n'}
+[2.352063] (mushr_joy_teleop) StdoutLine: {'line': b'byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_teleop_node.py to joy_teleop_node.cpython-310.pyc\n'}
+[2.353848] (mushr_joy_teleop) StdoutLine: {'line': b'byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[2.354319] (mushr_joy_teleop) StdoutLine: {'line': b'running install_data\n'}
+[2.354608] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index\n'}
+[2.354895] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index\n'}
+[2.355095] (mushr_joy_teleop) StdoutLine: {'line': b'creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages\n'}
+[2.355296] (mushr_joy_teleop) StdoutLine: {'line': b'copying resource/mushr_joy_teleop -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages\n'}
+[2.355488] (mushr_joy_teleop) StdoutLine: {'line': b'copying package.xml -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop\n'}
+[2.355725] (mushr_joy_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.361042] (mushr_joy_teleop) StdoutLine: {'line': b'Copying ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop-0.0.0-py3.10.egg-info\n'}
+[2.363618] (mushr_joy_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[2.423838] (mushr_joy_teleop) StdoutLine: {'line': b'Installing joy_teleop script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop\n'}
+[2.424966] (mushr_joy_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/pao/mushr2_ws/build/mushr_joy_teleop/install.log'\n"}
+[2.448205] (-) TimerEvent: {}
+[2.546968] (mushr_joy_teleop) CommandEnded: {'returncode': 0}
+[2.549132] (-) TimerEvent: {}
+[2.553713] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.590832] (mushr_joy_teleop) JobEnded: {'identifier': 'mushr_joy_teleop', 'rc': 0}
+[2.649480] (-) TimerEvent: {}
+[2.750580] (-) TimerEvent: {}
+[2.851768] (-) TimerEvent: {}
+[2.952832] (-) TimerEvent: {}
+[3.053767] (-) TimerEvent: {}
+[3.154629] (-) TimerEvent: {}
+[3.208234] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.254711] (-) TimerEvent: {}
+[3.355290] (-) TimerEvent: {}
+[3.456078] (-) TimerEvent: {}
+[3.557140] (-) TimerEvent: {}
+[3.658482] (-) TimerEvent: {}
+[3.759563] (-) TimerEvent: {}
+[3.860243] (-) TimerEvent: {}
+[3.961133] (-) TimerEvent: {}
+[4.062367] (-) TimerEvent: {}
+[4.114696] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.163410] (-) TimerEvent: {}
+[4.192288] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.197795] (vesc_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.263196] (-) TimerEvent: {}
+[4.288025] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.288632] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.288845] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.289040] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.343548] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.366521] (-) TimerEvent: {}
+[4.467807] (-) TimerEvent: {}
+[4.497724] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.538179] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.541628] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.543612] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.550376] (vesc_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.568019] (-) TimerEvent: {}
+[4.659647] (vesc_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.668386] (-) TimerEvent: {}
+[4.694997] (vesc_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pao/mushr2_ws/build/vesc_msgs\n'}
+[4.730304] (vesc_msgs) CommandEnded: {'returncode': 0}
+[4.733048] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[4.737382] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pao/mushr2_ws/build/vesc_msgs', '--', '-j6', '-l6'], 'cwd': '/home/pao/mushr2_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[4.768512] (-) TimerEvent: {}
+[4.839506] (vesc_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.863909] (vesc_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.868625] (-) TimerEvent: {}
+[4.887317] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_vesc_msgs\n'}
+[4.968879] (-) TimerEvent: {}
+[5.069919] (-) TimerEvent: {}
+[5.170885] (-) TimerEvent: {}
+[5.271904] (-) TimerEvent: {}
+[5.372890] (-) TimerEvent: {}
+[5.473894] (-) TimerEvent: {}
+[5.498157] (vesc_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.500347] (vesc_msgs) StdoutLine: {'line': b'creating vesc_msgs.egg-info\n'}
+[5.500927] (vesc_msgs) StdoutLine: {'line': b'writing vesc_msgs.egg-info/PKG-INFO\n'}
+[5.501768] (vesc_msgs) StdoutLine: {'line': b'writing dependency_links to vesc_msgs.egg-info/dependency_links.txt\n'}
+[5.503008] (vesc_msgs) StdoutLine: {'line': b'writing top-level names to vesc_msgs.egg-info/top_level.txt\n'}
+[5.503503] (vesc_msgs) StdoutLine: {'line': b"writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[5.508956] (vesc_msgs) StdoutLine: {'line': b"reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[5.510153] (vesc_msgs) StdoutLine: {'line': b"writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[5.574165] (-) TimerEvent: {}
+[5.675258] (-) TimerEvent: {}
+[5.700995] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_vesc_msgs_egg\n'}
+[5.775555] (-) TimerEvent: {}
+[5.876548] (-) TimerEvent: {}
+[5.977315] (-) TimerEvent: {}
+[6.078403] (-) TimerEvent: {}
+[6.179324] (-) TimerEvent: {}
+[6.280358] (-) TimerEvent: {}
+[6.381664] (-) TimerEvent: {}
+[6.482164] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target vesc_msgs__cpp\n'}
+[6.482805] (-) TimerEvent: {}
+[6.502916] (vesc_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.508895] (vesc_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.511290] (vesc_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.540297] (vesc_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__functions.c.o\x1b[0m\n'}
+[6.541070] (vesc_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__functions.c.o\x1b[0m\n'}
+[6.544227] (vesc_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__functions.c.o\x1b[0m\n'}
+[6.583091] (-) TimerEvent: {}
+[6.684149] (-) TimerEvent: {}
+[6.785346] (-) TimerEvent: {}
+[6.819264] (vesc_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c.o\x1b[0m\n'}
+[6.885556] (-) TimerEvent: {}
+[6.987233] (-) TimerEvent: {}
+[7.017742] (vesc_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libvesc_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.088784] (-) TimerEvent: {}
+[7.190089] (-) TimerEvent: {}
+[7.207521] (vesc_msgs) StdoutLine: {'line': b'[ 18%] Built target vesc_msgs__rosidl_generator_c\n'}
+[7.234907] (vesc_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.247978] (vesc_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.254630] (vesc_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.290321] (-) TimerEvent: {}
+[7.393947] (-) TimerEvent: {}
+[7.495398] (-) TimerEvent: {}
+[7.596751] (-) TimerEvent: {}
+[7.699745] (-) TimerEvent: {}
+[7.801994] (-) TimerEvent: {}
+[7.903419] (-) TimerEvent: {}
+[8.004745] (-) TimerEvent: {}
+[8.107485] (-) TimerEvent: {}
+[8.145799] (vesc_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[8.202508] (vesc_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[8.207598] (-) TimerEvent: {}
+[8.308717] (-) TimerEvent: {}
+[8.406108] (vesc_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[8.408878] (-) TimerEvent: {}
+[8.510384] (-) TimerEvent: {}
+[8.612931] (-) TimerEvent: {}
+[8.719058] (-) TimerEvent: {}
+[8.820646] (-) TimerEvent: {}
+[8.927532] (-) TimerEvent: {}
+[9.028960] (-) TimerEvent: {}
+[9.130040] (-) TimerEvent: {}
+[9.231101] (-) TimerEvent: {}
+[9.328909] (vesc_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[9.331168] (-) TimerEvent: {}
+[9.432202] (-) TimerEvent: {}
+[9.456980] (vesc_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.469197] (vesc_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.483774] (vesc_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o\x1b[0m\n'}
+[9.532364] (-) TimerEvent: {}
+[9.588730] (vesc_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o\x1b[0m\n'}
+[9.608447] (vesc_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[9.632565] (-) TimerEvent: {}
+[9.680120] (vesc_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o\x1b[0m\n'}
+[9.689471] (vesc_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.732892] (-) TimerEvent: {}
+[9.776844] (vesc_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o\x1b[0m\n'}
+[9.809844] (vesc_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.833259] (-) TimerEvent: {}
+[9.851639] (vesc_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.906238] (vesc_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o\x1b[0m\n'}
+[9.925132] (vesc_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.933669] (vesc_msgs) StdoutLine: {'line': b'[ 52%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[9.934470] (-) TimerEvent: {}
+[9.978295] (vesc_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[10.002539] (vesc_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.034863] (-) TimerEvent: {}
+[10.103393] (vesc_msgs) StdoutLine: {'line': b'[ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[10.128053] (vesc_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[10.135144] (-) TimerEvent: {}
+[10.236417] (-) TimerEvent: {}
+[10.337668] (-) TimerEvent: {}
+[10.369382] (vesc_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[10.438035] (-) TimerEvent: {}
+[10.539643] (-) TimerEvent: {}
+[10.641312] (-) TimerEvent: {}
+[10.736405] (vesc_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o\x1b[0m\n'}
+[10.741834] (-) TimerEvent: {}
+[10.845718] (-) TimerEvent: {}
+[10.948392] (-) TimerEvent: {}
+[11.021411] (vesc_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[11.048665] (-) TimerEvent: {}
+[11.075513] (vesc_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.148972] (-) TimerEvent: {}
+[11.157021] (vesc_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[11.187724] (vesc_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.249262] (-) TimerEvent: {}
+[11.254123] (vesc_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.349563] (-) TimerEvent: {}
+[11.451267] (-) TimerEvent: {}
+[11.552952] (-) TimerEvent: {}
+[11.654622] (-) TimerEvent: {}
+[11.756238] (-) TimerEvent: {}
+[11.858287] (-) TimerEvent: {}
+[11.960177] (-) TimerEvent: {}
+[12.012815] (vesc_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.060490] (-) TimerEvent: {}
+[12.142824] (vesc_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.156197] (vesc_msgs) StdoutLine: {'line': b'[ 74%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[12.160658] (-) TimerEvent: {}
+[12.170600] (vesc_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.263231] (-) TimerEvent: {}
+[12.368044] (-) TimerEvent: {}
+[12.424106] (vesc_msgs) StdoutLine: {'line': b'[ 76%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[12.444905] (vesc_msgs) StdoutLine: {'line': b'[ 76%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[12.468316] (-) TimerEvent: {}
+[12.569463] (-) TimerEvent: {}
+[12.626990] (vesc_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.669759] (-) TimerEvent: {}
+[12.770928] (-) TimerEvent: {}
+[12.872135] (-) TimerEvent: {}
+[12.882502] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[12.934769] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs\n'}
+[12.972420] (-) TimerEvent: {}
+[12.992386] (vesc_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.072615] (-) TimerEvent: {}
+[13.173528] (-) TimerEvent: {}
+[13.274429] (-) TimerEvent: {}
+[13.375519] (-) TimerEvent: {}
+[13.476823] (-) TimerEvent: {}
+[13.578336] (-) TimerEvent: {}
+[13.679340] (-) TimerEvent: {}
+[13.781440] (-) TimerEvent: {}
+[13.882624] (-) TimerEvent: {}
+[13.983737] (-) TimerEvent: {}
+[14.084662] (-) TimerEvent: {}
+[14.185597] (-) TimerEvent: {}
+[14.286429] (-) TimerEvent: {}
+[14.387241] (-) TimerEvent: {}
+[14.488176] (-) TimerEvent: {}
+[14.589051] (-) TimerEvent: {}
+[14.689949] (-) TimerEvent: {}
+[14.790819] (-) TimerEvent: {}
+[14.891786] (-) TimerEvent: {}
+[14.992746] (-) TimerEvent: {}
+[15.093469] (-) TimerEvent: {}
+[15.194392] (-) TimerEvent: {}
+[15.216111] (vesc_msgs) StdoutLine: {'line': b'[ 80%] Built target vesc_msgs__py\n'}
+[15.264375] (vesc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o\x1b[0m\n'}
+[15.265153] (vesc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o\x1b[0m\n'}
+[15.265367] (vesc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o\x1b[0m\n'}
+[15.265654] (vesc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o\x1b[0m\n'}
+[15.294654] (-) TimerEvent: {}
+[15.396502] (-) TimerEvent: {}
+[15.497666] (-) TimerEvent: {}
+[15.598802] (-) TimerEvent: {}
+[15.655772] (vesc_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[15.698864] (-) TimerEvent: {}
+[15.758906] (vesc_msgs) StdoutLine: {'line': b'[ 89%] Built target vesc_msgs__rosidl_generator_py\n'}
+[15.799240] (-) TimerEvent: {}
+[15.808828] (vesc_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.809448] (vesc_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.809691] (vesc_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.899482] (-) TimerEvent: {}
+[16.000593] (-) TimerEvent: {}
+[16.079793] (vesc_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.080690] (vesc_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.086301] (vesc_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.100818] (-) TimerEvent: {}
+[16.180515] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[16.181336] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_c__pyext\n'}
+[16.200042] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.200933] (-) TimerEvent: {}
+[16.234521] (vesc_msgs) CommandEnded: {'returncode': 0}
+[16.237528] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'install'}
+[16.259133] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pao/mushr2_ws/build/vesc_msgs'], 'cwd': '/home/pao/mushr2_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[16.281477] (vesc_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.282101] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs\n'}
+[16.282466] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.282748] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.282927] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.283165] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h\n'}
+[16.283441] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h\n'}
+[16.283631] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.283814] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.c\n'}
+[16.284077] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.c\n'}
+[16.284345] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h\n'}
+[16.284568] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h\n'}
+[16.284789] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h\n'}
+[16.285017] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h\n'}
+[16.285232] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h\n'}
+[16.285480] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h\n'}
+[16.285708] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c\n'}
+[16.285964] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h\n'}
+[16.286211] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h\n'}
+[16.286432] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h\n'}
+[16.286678] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h\n'}
+[16.286898] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.c\n'}
+[16.287150] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h\n'}
+[16.287464] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h\n'}
+[16.287651] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h\n'}
+[16.287871] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h\n'}
+[16.289080] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh\n'}
+[16.289386] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv\n'}
+[16.289785] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so\n'}
+[16.290500] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so" to ""\n'}
+[16.290674] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.290865] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.291025] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.291199] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[16.291351] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[16.291524] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[16.291684] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h\n'}
+[16.291882] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.292187] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.292883] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.293052] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.293254] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.293388] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.293551] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.c\n'}
+[16.293685] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h\n'}
+[16.293843] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c\n'}
+[16.293996] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c\n'}
+[16.294207] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.c\n'}
+[16.294521] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h\n'}
+[16.294743] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h\n'}
+[16.294963] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h\n'}
+[16.295195] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.295534] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.296131] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.296303] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so\n'}
+[16.296833] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.297001] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.297183] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.297331] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp\n'}
+[16.297497] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.297663] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.297824] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp\n'}
+[16.297998] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp\n'}
+[16.298173] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.hpp\n'}
+[16.298395] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp\n'}
+[16.298625] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp\n'}
+[16.298845] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp\n'}
+[16.299110] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp\n'}
+[16.299375] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp\n'}
+[16.299606] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp\n'}
+[16.299830] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp\n'}
+[16.300060] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp\n'}
+[16.300344] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp\n'}
+[16.300600] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp\n'}
+[16.300854] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp\n'}
+[16.300990] (-) TimerEvent: {}
+[16.301313] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp\n'}
+[16.301526] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.hpp\n'}
+[16.301711] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp\n'}
+[16.301885] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp\n'}
+[16.302050] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp\n'}
+[16.302290] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.302482] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.302649] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.302814] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/dds_fastrtps\n'}
+[16.302984] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.303151] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.303890] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.304312] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.304686] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.304951] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.305379] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.305716] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs\n'}
+[16.306012] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg\n'}
+[16.306315] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail\n'}
+[16.306615] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.306933] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.307250] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.307507] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.cpp\n'}
+[16.307808] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp\n'}
+[16.308039] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.308319] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp\n'}
+[16.308605] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.cpp\n'}
+[16.308834] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.309158] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.309438] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so\n'}
+[16.309718] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.309980] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh\n'}
+[16.310268] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv\n'}
+[16.310550] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info\n'}
+[16.310828] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/top_level.txt\n'}
+[16.311150] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.311458] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/PKG-INFO\n'}
+[16.311744] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.312032] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs\n'}
+[16.312315] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.312599] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.312893] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.313232] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.313526] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.313851] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg\n'}
+[16.314144] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_s.c\n'}
+[16.314457] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py\n'}
+[16.314790] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py\n'}
+[16.315087] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py\n'}
+[16.315410] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c\n'}
+[16.315697] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_s.c\n'}
+[16.315977] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py\n'}
+[16.316199] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py\n'}
+[16.316416] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped_s.c\n'}
+[16.316633] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[16.316849] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py\n'}
+[16.317064] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/libvesc_msgs__rosidl_generator_py.so\n'}
+[16.401142] (-) TimerEvent: {}
+[16.415328] (vesc_msgs) StdoutLine: {'line': b"Listing '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs'...\n"}
+[16.415782] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py'...\n"}
+[16.416069] (vesc_msgs) StdoutLine: {'line': b"Listing '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg'...\n"}
+[16.416326] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py'...\n"}
+[16.416571] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py'...\n"}
+[16.416808] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py'...\n"}
+[16.417037] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py'...\n"}
+[16.417261] (vesc_msgs) StdoutLine: {'line': b"Compiling '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py'...\n"}
+[16.432726] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.433917] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.434383] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.434740] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.435011] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[16.435404] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[16.435667] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so\n'}
+[16.436033] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so" to ""\n'}
+[16.436687] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl\n'}
+[16.437143] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl\n'}
+[16.437536] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl\n'}
+[16.437901] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl\n'}
+[16.438218] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg\n'}
+[16.438520] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg\n'}
+[16.438822] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg\n'}
+[16.439105] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg\n'}
+[16.439384] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs\n'}
+[16.439657] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs\n'}
+[16.439944] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh\n'}
+[16.440223] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv\n'}
+[16.440506] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh\n'}
+[16.440824] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv\n'}
+[16.441057] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash\n'}
+[16.441331] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh\n'}
+[16.441650] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh\n'}
+[16.441884] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv\n'}
+[16.442164] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv\n'}
+[16.442388] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs\n'}
+[16.442670] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake\n'}
+[16.442949] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.443257] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.443560] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.443846] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.444126] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.444396] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.444660] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.444950] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.445327] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.445682] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.445991] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.446285] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.446603] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.446927] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.447260] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake\n'}
+[16.447552] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.447883] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.448190] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.448483] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.448772] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.449057] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.449339] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.449612] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.449894] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake\n'}
+[16.450177] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake\n'}
+[16.450459] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.xml\n'}
+[16.457788] (vesc_msgs) CommandEnded: {'returncode': 0}
+[16.501288] (-) TimerEvent: {}
+[16.520989] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 0}
+[16.524438] (vesc_ackermann) JobStarted: {'identifier': 'vesc_ackermann'}
+[16.535278] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[16.546522] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'cmake'}
+[16.548564] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '/home/pao/mushr2_ws/src/vesc/vesc_ackermann', '-DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_ackermann'], 'cwd': '/home/pao/mushr2_ws/build/vesc_ackermann', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_ackermann'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[16.559008] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'cmake'}
+[16.559158] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pao/mushr2_ws/src/vesc/vesc_driver', '-DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_driver'], 'cwd': '/home/pao/mushr2_ws/build/vesc_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[16.601605] (-) TimerEvent: {}
+[16.689019] (vesc_ackermann) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[16.689842] (vesc_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[16.701702] (-) TimerEvent: {}
+[16.802609] (-) TimerEvent: {}
+[16.827070] (vesc_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[16.828024] (vesc_ackermann) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[16.847106] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[16.851477] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[16.902853] (-) TimerEvent: {}
+[17.004032] (-) TimerEvent: {}
+[17.016866] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[17.017852] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[17.042107] (vesc_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[17.042702] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[17.043152] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[17.043609] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[17.044544] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[17.044933] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[17.055023] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[17.055488] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[17.104226] (-) TimerEvent: {}
+[17.205290] (-) TimerEvent: {}
+[17.247236] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.248118] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.272490] (vesc_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.273500] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.274436] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.275150] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.275613] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.277240] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.282437] (vesc_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[17.283941] (vesc_ackermann) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[17.305445] (-) TimerEvent: {}
+[17.406482] (-) TimerEvent: {}
+[17.507842] (-) TimerEvent: {}
+[17.609428] (-) TimerEvent: {}
+[17.710892] (-) TimerEvent: {}
+[17.743720] (vesc_ackermann) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[17.748540] (vesc_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[17.811119] (-) TimerEvent: {}
+[17.912622] (-) TimerEvent: {}
+[18.014029] (-) TimerEvent: {}
+[18.115092] (-) TimerEvent: {}
+[18.216235] (-) TimerEvent: {}
+[18.266406] (vesc_ackermann) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[18.275839] (vesc_ackermann) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[18.278694] (vesc_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[18.288265] (vesc_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[18.292799] (vesc_ackermann) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[18.305305] (vesc_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[18.316318] (-) TimerEvent: {}
+[18.317704] (vesc_ackermann) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.329663] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.350337] (vesc_ackermann) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.361979] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.416513] (-) TimerEvent: {}
+[18.490144] (vesc_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.500895] (vesc_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[18.516700] (-) TimerEvent: {}
+[18.601233] (vesc_ackermann) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.606189] (vesc_ackermann) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[18.616805] (-) TimerEvent: {}
+[18.705688] (vesc_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.716929] (-) TimerEvent: {}
+[18.782671] (vesc_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.785429] (vesc_ackermann) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.817075] (-) TimerEvent: {}
+[18.852566] (vesc_ackermann) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.876746] (vesc_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.902166] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.917245] (-) TimerEvent: {}
+[18.943442] (vesc_ackermann) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.961888] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.017686] (-) TimerEvent: {}
+[19.118940] (-) TimerEvent: {}
+[19.152069] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.152718] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[19.194309] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.195848] (vesc_ackermann) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[19.219277] (-) TimerEvent: {}
+[19.320550] (-) TimerEvent: {}
+[19.359414] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.362055] (vesc_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.406355] (vesc_ackermann) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.409075] (vesc_ackermann) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.420641] (-) TimerEvent: {}
+[19.521521] (-) TimerEvent: {}
+[19.622610] (-) TimerEvent: {}
+[19.713719] (vesc_driver) StdoutLine: {'line': b'-- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)\n'}
+[19.717076] (vesc_driver) StdoutLine: {'line': b'-- Found ASIO: /usr/include  \n'}
+[19.722627] (-) TimerEvent: {}
+[19.823297] (-) TimerEvent: {}
+[19.838179] (vesc_ackermann) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.869586] (vesc_ackermann) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_ackermann` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[19.870768] (vesc_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.877614] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[19.880610] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.881065] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pao/mushr2_ws/src/vesc/vesc_ackermann/include\n'}
+[19.881273] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.883156] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[19.883336] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[19.884710] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.887094] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.887571] (vesc_ackermann) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.888139] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.894326] (vesc_ackermann) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.902908] (vesc_driver) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[19.910626] (vesc_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[19.914572] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.915290] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pao/mushr2_ws/src/vesc/vesc_driver/include\n'}
+[19.915500] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.918276] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[19.918434] (vesc_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[19.919574] (vesc_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.920994] (vesc_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.922065] (vesc_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.923329] (-) TimerEvent: {}
+[19.925069] (vesc_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.925290] (vesc_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.926385] (vesc_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.932727] (vesc_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.942393] (vesc_ackermann) StdoutLine: {'line': b'-- Generating done\n'}
+[19.960578] (vesc_ackermann) StdoutLine: {'line': b'-- Build files have been written to: /home/pao/mushr2_ws/build/vesc_ackermann\n'}
+[20.004066] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[20.006379] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'build'}
+[20.007433] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pao/mushr2_ws/build/vesc_ackermann', '--', '-j6', '-l6'], 'cwd': '/home/pao/mushr2_ws/build/vesc_ackermann', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_ackermann'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[20.023614] (-) TimerEvent: {}
+[20.050317] (vesc_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[20.069770] (vesc_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/pao/mushr2_ws/build/vesc_driver\n'}
+[20.115245] (vesc_driver) CommandEnded: {'returncode': 0}
+[20.120794] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'build'}
+[20.121102] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pao/mushr2_ws/build/vesc_driver', '--', '-j6', '-l6'], 'cwd': '/home/pao/mushr2_ws/build/vesc_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[20.123896] (-) TimerEvent: {}
+[20.137968] (vesc_ackermann) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o\x1b[0m\n'}
+[20.138772] (vesc_ackermann) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o\x1b[0m\n'}
+[20.138981] (vesc_ackermann) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o\x1b[0m\n'}
+[20.139312] (vesc_ackermann) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o\x1b[0m\n'}
+[20.224235] (-) TimerEvent: {}
+[20.260884] (vesc_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o\x1b[0m\n'}
+[20.281637] (vesc_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o\x1b[0m\n'}
+[20.288380] (vesc_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o\x1b[0m\n'}
+[20.298161] (vesc_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o\x1b[0m\n'}
+[20.318883] (vesc_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o\x1b[0m\n'}
+[20.324458] (-) TimerEvent: {}
+[20.425609] (-) TimerEvent: {}
+[20.527080] (-) TimerEvent: {}
+[20.628559] (-) TimerEvent: {}
+[20.729991] (-) TimerEvent: {}
+[20.831538] (-) TimerEvent: {}
+[20.933078] (-) TimerEvent: {}
+[21.034699] (-) TimerEvent: {}
+[21.136306] (-) TimerEvent: {}
+[21.237880] (-) TimerEvent: {}
+[21.339465] (-) TimerEvent: {}
+[21.441070] (-) TimerEvent: {}
+[21.542608] (-) TimerEvent: {}
+[21.644521] (-) TimerEvent: {}
+[21.746223] (-) TimerEvent: {}
+[21.847983] (-) TimerEvent: {}
+[21.949671] (-) TimerEvent: {}
+[22.051426] (-) TimerEvent: {}
+[22.153127] (-) TimerEvent: {}
+[22.254934] (-) TimerEvent: {}
+[22.356812] (-) TimerEvent: {}
+[22.458561] (-) TimerEvent: {}
+[22.560307] (-) TimerEvent: {}
+[22.662057] (-) TimerEvent: {}
+[22.763799] (-) TimerEvent: {}
+[22.865521] (-) TimerEvent: {}
+[22.967631] (-) TimerEvent: {}
+[23.069340] (-) TimerEvent: {}
+[23.171106] (-) TimerEvent: {}
+[23.272912] (-) TimerEvent: {}
+[23.374752] (-) TimerEvent: {}
+[23.476441] (-) TimerEvent: {}
+[23.577700] (-) TimerEvent: {}
+[23.678914] (-) TimerEvent: {}
+[23.780169] (-) TimerEvent: {}
+[23.881413] (-) TimerEvent: {}
+[23.982707] (-) TimerEvent: {}
+[24.084550] (-) TimerEvent: {}
+[24.186383] (-) TimerEvent: {}
+[24.288277] (-) TimerEvent: {}
+[24.389974] (-) TimerEvent: {}
+[24.491325] (-) TimerEvent: {}
+[24.592583] (-) TimerEvent: {}
+[24.694038] (-) TimerEvent: {}
+[24.795490] (-) TimerEvent: {}
+[24.896860] (-) TimerEvent: {}
+[24.998206] (-) TimerEvent: {}
+[25.099640] (-) TimerEvent: {}
+[25.201056] (-) TimerEvent: {}
+[25.302354] (-) TimerEvent: {}
+[25.403703] (-) TimerEvent: {}
+[25.505644] (-) TimerEvent: {}
+[25.606970] (-) TimerEvent: {}
+[25.708225] (-) TimerEvent: {}
+[25.809177] (-) TimerEvent: {}
+[25.910527] (-) TimerEvent: {}
+[26.011746] (-) TimerEvent: {}
+[26.113218] (-) TimerEvent: {}
+[26.222506] (-) TimerEvent: {}
+[26.326368] (-) TimerEvent: {}
+[26.428041] (-) TimerEvent: {}
+[26.529270] (-) TimerEvent: {}
+[26.630619] (-) TimerEvent: {}
+[26.731855] (-) TimerEvent: {}
+[26.833170] (-) TimerEvent: {}
+[26.934431] (-) TimerEvent: {}
+[27.035824] (-) TimerEvent: {}
+[27.137114] (-) TimerEvent: {}
+[27.238453] (-) TimerEvent: {}
+[27.339857] (-) TimerEvent: {}
+[27.441242] (-) TimerEvent: {}
+[27.542990] (-) TimerEvent: {}
+[27.644740] (-) TimerEvent: {}
+[27.749759] (-) TimerEvent: {}
+[27.855444] (-) TimerEvent: {}
+[27.957114] (-) TimerEvent: {}
+[28.059120] (-) TimerEvent: {}
+[28.160823] (-) TimerEvent: {}
+[28.262513] (-) TimerEvent: {}
+[28.364255] (-) TimerEvent: {}
+[28.465973] (-) TimerEvent: {}
+[28.567756] (-) TimerEvent: {}
+[28.669364] (-) TimerEvent: {}
+[28.771148] (-) TimerEvent: {}
+[28.873032] (-) TimerEvent: {}
+[28.974736] (-) TimerEvent: {}
+[29.076367] (-) TimerEvent: {}
+[29.177967] (-) TimerEvent: {}
+[29.279642] (-) TimerEvent: {}
+[29.381264] (-) TimerEvent: {}
+[29.482957] (-) TimerEvent: {}
+[29.584587] (-) TimerEvent: {}
+[29.686144] (-) TimerEvent: {}
+[29.787889] (-) TimerEvent: {}
+[29.889472] (-) TimerEvent: {}
+[29.991234] (-) TimerEvent: {}
+[30.093082] (-) TimerEvent: {}
+[30.194756] (-) TimerEvent: {}
+[30.295805] (-) TimerEvent: {}
+[30.396920] (-) TimerEvent: {}
+[30.499018] (-) TimerEvent: {}
+[30.600141] (-) TimerEvent: {}
+[30.702329] (-) TimerEvent: {}
+[30.803448] (-) TimerEvent: {}
+[30.905103] (-) TimerEvent: {}
+[31.006743] (-) TimerEvent: {}
+[31.108490] (-) TimerEvent: {}
+[31.210070] (-) TimerEvent: {}
+[31.315059] (-) TimerEvent: {}
+[31.416958] (-) TimerEvent: {}
+[31.518562] (-) TimerEvent: {}
+[31.620101] (-) TimerEvent: {}
+[31.721956] (-) TimerEvent: {}
+[31.823467] (-) TimerEvent: {}
+[31.924556] (-) TimerEvent: {}
+[32.025763] (-) TimerEvent: {}
+[32.129088] (-) TimerEvent: {}
+[32.230352] (-) TimerEvent: {}
+[32.331978] (-) TimerEvent: {}
+[32.433613] (-) TimerEvent: {}
+[32.535371] (-) TimerEvent: {}
+[32.636960] (-) TimerEvent: {}
+[32.738543] (-) TimerEvent: {}
+[32.840178] (-) TimerEvent: {}
+[32.941746] (-) TimerEvent: {}
+[33.043381] (-) TimerEvent: {}
+[33.145302] (-) TimerEvent: {}
+[33.246949] (-) TimerEvent: {}
+[33.348567] (-) TimerEvent: {}
+[33.450187] (-) TimerEvent: {}
+[33.551804] (-) TimerEvent: {}
+[33.653407] (-) TimerEvent: {}
+[33.754954] (-) TimerEvent: {}
+[33.856854] (-) TimerEvent: {}
+[33.958339] (-) TimerEvent: {}
+[34.059978] (-) TimerEvent: {}
+[34.161470] (-) TimerEvent: {}
+[34.245533] (vesc_ackermann) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable vesc_to_odom_node\x1b[0m\n'}
+[34.261842] (-) TimerEvent: {}
+[34.363517] (-) TimerEvent: {}
+[34.465180] (-) TimerEvent: {}
+[34.566902] (-) TimerEvent: {}
+[34.668649] (-) TimerEvent: {}
+[34.769842] (-) TimerEvent: {}
+[34.871084] (-) TimerEvent: {}
+[34.925695] (vesc_ackermann) StdoutLine: {'line': b'[ 71%] Built target vesc_to_odom_node\n'}
+[34.971413] (-) TimerEvent: {}
+[35.072552] (-) TimerEvent: {}
+[35.090478] (vesc_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable vesc_driver_node\x1b[0m\n'}
+[35.172860] (-) TimerEvent: {}
+[35.274083] (-) TimerEvent: {}
+[35.375408] (-) TimerEvent: {}
+[35.400876] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ackermann_to_vesc_node\x1b[0m\n'}
+[35.475823] (-) TimerEvent: {}
+[35.577651] (-) TimerEvent: {}
+[35.621434] (vesc_driver) StdoutLine: {'line': b'[ 60%] Built target vesc_driver_node\n'}
+[35.678075] (-) TimerEvent: {}
+[35.780067] (-) TimerEvent: {}
+[35.881301] (-) TimerEvent: {}
+[35.893667] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] Built target ackermann_to_vesc_node\n'}
+[35.981609] (-) TimerEvent: {}
+[36.082749] (-) TimerEvent: {}
+[36.183916] (-) TimerEvent: {}
+[36.285105] (-) TimerEvent: {}
+[36.386297] (-) TimerEvent: {}
+[36.487468] (-) TimerEvent: {}
+[36.588603] (-) TimerEvent: {}
+[36.689835] (-) TimerEvent: {}
+[36.791035] (-) TimerEvent: {}
+[36.892219] (-) TimerEvent: {}
+[36.993391] (-) TimerEvent: {}
+[37.094567] (-) TimerEvent: {}
+[37.195798] (-) TimerEvent: {}
+[37.297027] (-) TimerEvent: {}
+[37.398211] (-) TimerEvent: {}
+[37.499397] (-) TimerEvent: {}
+[37.600540] (-) TimerEvent: {}
+[37.701683] (-) TimerEvent: {}
+[37.802845] (-) TimerEvent: {}
+[37.904445] (-) TimerEvent: {}
+[38.005643] (-) TimerEvent: {}
+[38.106816] (-) TimerEvent: {}
+[38.208175] (-) TimerEvent: {}
+[38.309390] (-) TimerEvent: {}
+[38.410574] (-) TimerEvent: {}
+[38.511731] (-) TimerEvent: {}
+[38.612894] (-) TimerEvent: {}
+[38.714061] (-) TimerEvent: {}
+[38.815284] (-) TimerEvent: {}
+[38.916522] (-) TimerEvent: {}
+[39.017680] (-) TimerEvent: {}
+[39.118876] (-) TimerEvent: {}
+[39.220078] (-) TimerEvent: {}
+[39.321252] (-) TimerEvent: {}
+[39.422427] (-) TimerEvent: {}
+[39.523622] (-) TimerEvent: {}
+[39.624782] (-) TimerEvent: {}
+[39.725950] (-) TimerEvent: {}
+[39.827131] (-) TimerEvent: {}
+[39.928268] (-) TimerEvent: {}
+[40.029435] (-) TimerEvent: {}
+[40.130599] (-) TimerEvent: {}
+[40.231806] (-) TimerEvent: {}
+[40.333005] (-) TimerEvent: {}
+[40.434175] (-) TimerEvent: {}
+[40.535363] (-) TimerEvent: {}
+[40.636518] (-) TimerEvent: {}
+[40.737659] (-) TimerEvent: {}
+[40.838846] (-) TimerEvent: {}
+[40.940110] (-) TimerEvent: {}
+[41.041277] (-) TimerEvent: {}
+[41.142432] (-) TimerEvent: {}
+[41.243605] (-) TimerEvent: {}
+[41.344726] (-) TimerEvent: {}
+[41.445834] (-) TimerEvent: {}
+[41.546949] (-) TimerEvent: {}
+[41.648158] (-) TimerEvent: {}
+[41.749316] (-) TimerEvent: {}
+[41.850528] (-) TimerEvent: {}
+[41.951804] (-) TimerEvent: {}
+[42.052998] (-) TimerEvent: {}
+[42.154223] (-) TimerEvent: {}
+[42.255481] (-) TimerEvent: {}
+[42.356644] (-) TimerEvent: {}
+[42.457849] (-) TimerEvent: {}
+[42.559021] (-) TimerEvent: {}
+[42.660219] (-) TimerEvent: {}
+[42.761346] (-) TimerEvent: {}
+[42.862465] (-) TimerEvent: {}
+[42.963631] (-) TimerEvent: {}
+[43.064736] (-) TimerEvent: {}
+[43.165899] (-) TimerEvent: {}
+[43.267280] (-) TimerEvent: {}
+[43.368727] (-) TimerEvent: {}
+[43.469599] (-) TimerEvent: {}
+[43.571923] (-) TimerEvent: {}
+[43.673906] (-) TimerEvent: {}
+[43.775295] (-) TimerEvent: {}
+[43.876463] (-) TimerEvent: {}
+[43.977997] (-) TimerEvent: {}
+[44.079587] (-) TimerEvent: {}
+[44.180752] (-) TimerEvent: {}
+[44.281895] (-) TimerEvent: {}
+[44.383011] (-) TimerEvent: {}
+[44.484221] (-) TimerEvent: {}
+[44.585481] (-) TimerEvent: {}
+[44.687353] (-) TimerEvent: {}
+[44.788439] (-) TimerEvent: {}
+[44.889588] (-) TimerEvent: {}
+[44.990766] (-) TimerEvent: {}
+[45.092002] (-) TimerEvent: {}
+[45.193222] (-) TimerEvent: {}
+[45.294423] (-) TimerEvent: {}
+[45.395857] (-) TimerEvent: {}
+[45.497023] (-) TimerEvent: {}
+[45.598182] (-) TimerEvent: {}
+[45.699344] (-) TimerEvent: {}
+[45.800493] (-) TimerEvent: {}
+[45.901626] (-) TimerEvent: {}
+[46.002812] (-) TimerEvent: {}
+[46.104077] (-) TimerEvent: {}
+[46.205238] (-) TimerEvent: {}
+[46.307614] (-) TimerEvent: {}
+[46.408741] (-) TimerEvent: {}
+[46.509927] (-) TimerEvent: {}
+[46.611086] (-) TimerEvent: {}
+[46.712277] (-) TimerEvent: {}
+[46.813406] (-) TimerEvent: {}
+[46.914595] (-) TimerEvent: {}
+[47.015838] (-) TimerEvent: {}
+[47.117019] (-) TimerEvent: {}
+[47.218218] (-) TimerEvent: {}
+[47.319438] (-) TimerEvent: {}
+[47.420605] (-) TimerEvent: {}
+[47.521760] (-) TimerEvent: {}
+[47.622942] (-) TimerEvent: {}
+[47.724142] (-) TimerEvent: {}
+[47.825271] (-) TimerEvent: {}
+[47.926443] (-) TimerEvent: {}
+[48.027624] (-) TimerEvent: {}
+[48.128793] (-) TimerEvent: {}
+[48.229972] (-) TimerEvent: {}
+[48.331208] (-) TimerEvent: {}
+[48.432448] (-) TimerEvent: {}
+[48.533746] (-) TimerEvent: {}
+[48.634975] (-) TimerEvent: {}
+[48.736220] (-) TimerEvent: {}
+[48.837399] (-) TimerEvent: {}
+[48.938703] (-) TimerEvent: {}
+[49.039948] (-) TimerEvent: {}
+[49.141144] (-) TimerEvent: {}
+[49.242342] (-) TimerEvent: {}
+[49.344145] (-) TimerEvent: {}
+[49.445343] (-) TimerEvent: {}
+[49.546539] (-) TimerEvent: {}
+[49.647770] (-) TimerEvent: {}
+[49.748952] (-) TimerEvent: {}
+[49.850086] (-) TimerEvent: {}
+[49.951271] (-) TimerEvent: {}
+[50.053603] (-) TimerEvent: {}
+[50.154783] (-) TimerEvent: {}
+[50.256092] (-) TimerEvent: {}
+[50.357302] (-) TimerEvent: {}
+[50.458512] (-) TimerEvent: {}
+[50.559680] (-) TimerEvent: {}
+[50.671512] (-) TimerEvent: {}
+[50.772675] (-) TimerEvent: {}
+[50.873900] (-) TimerEvent: {}
+[50.975093] (-) TimerEvent: {}
+[51.076380] (-) TimerEvent: {}
+[51.177554] (-) TimerEvent: {}
+[51.279027] (-) TimerEvent: {}
+[51.380319] (-) TimerEvent: {}
+[51.487593] (-) TimerEvent: {}
+[51.588790] (-) TimerEvent: {}
+[51.690024] (-) TimerEvent: {}
+[51.791213] (-) TimerEvent: {}
+[51.893225] (-) TimerEvent: {}
+[51.994362] (-) TimerEvent: {}
+[52.095476] (-) TimerEvent: {}
+[52.196577] (-) TimerEvent: {}
+[52.297706] (-) TimerEvent: {}
+[52.398908] (-) TimerEvent: {}
+[52.500085] (-) TimerEvent: {}
+[52.601174] (-) TimerEvent: {}
+[52.702248] (-) TimerEvent: {}
+[52.803368] (-) TimerEvent: {}
+[52.904839] (-) TimerEvent: {}
+[53.005941] (-) TimerEvent: {}
+[53.107042] (-) TimerEvent: {}
+[53.208173] (-) TimerEvent: {}
+[53.309257] (-) TimerEvent: {}
+[53.410327] (-) TimerEvent: {}
+[53.511434] (-) TimerEvent: {}
+[53.612531] (-) TimerEvent: {}
+[53.713545] (-) TimerEvent: {}
+[53.814608] (-) TimerEvent: {}
+[53.915762] (-) TimerEvent: {}
+[54.016899] (-) TimerEvent: {}
+[54.118100] (-) TimerEvent: {}
+[54.219334] (-) TimerEvent: {}
+[54.320585] (-) TimerEvent: {}
+[54.421807] (-) TimerEvent: {}
+[54.522969] (-) TimerEvent: {}
+[54.624145] (-) TimerEvent: {}
+[54.725237] (-) TimerEvent: {}
+[54.812489] (vesc_driver) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_driver.so\x1b[0m\n'}
+[54.825433] (-) TimerEvent: {}
+[54.926539] (-) TimerEvent: {}
+[55.027763] (-) TimerEvent: {}
+[55.129093] (-) TimerEvent: {}
+[55.230282] (-) TimerEvent: {}
+[55.331567] (-) TimerEvent: {}
+[55.432800] (-) TimerEvent: {}
+[55.534055] (-) TimerEvent: {}
+[55.635392] (-) TimerEvent: {}
+[55.736591] (-) TimerEvent: {}
+[55.837827] (-) TimerEvent: {}
+[55.939118] (-) TimerEvent: {}
+[56.040368] (-) TimerEvent: {}
+[56.141541] (-) TimerEvent: {}
+[56.242602] (-) TimerEvent: {}
+[56.343593] (-) TimerEvent: {}
+[56.444662] (-) TimerEvent: {}
+[56.545749] (-) TimerEvent: {}
+[56.646818] (-) TimerEvent: {}
+[56.747970] (-) TimerEvent: {}
+[56.849059] (-) TimerEvent: {}
+[56.950117] (-) TimerEvent: {}
+[57.051235] (-) TimerEvent: {}
+[57.096764] (vesc_driver) StdoutLine: {'line': b'[ 70%] Built target vesc_driver\n'}
+[57.148205] (vesc_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o\x1b[0m\n'}
+[57.149068] (vesc_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o\x1b[0m\n'}
+[57.151771] (-) TimerEvent: {}
+[57.252763] (-) TimerEvent: {}
+[57.353916] (-) TimerEvent: {}
+[57.455291] (-) TimerEvent: {}
+[57.556385] (-) TimerEvent: {}
+[57.657500] (-) TimerEvent: {}
+[57.758645] (-) TimerEvent: {}
+[57.859796] (-) TimerEvent: {}
+[57.960916] (-) TimerEvent: {}
+[58.062047] (-) TimerEvent: {}
+[58.163158] (-) TimerEvent: {}
+[58.264323] (-) TimerEvent: {}
+[58.365444] (-) TimerEvent: {}
+[58.466589] (-) TimerEvent: {}
+[58.571730] (-) TimerEvent: {}
+[58.672868] (-) TimerEvent: {}
+[58.773982] (-) TimerEvent: {}
+[58.875067] (-) TimerEvent: {}
+[58.976202] (-) TimerEvent: {}
+[59.077274] (-) TimerEvent: {}
+[59.178364] (-) TimerEvent: {}
+[59.186597] (vesc_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vesc_device_namer\x1b[0m\n'}
+[59.278666] (-) TimerEvent: {}
+[59.379869] (-) TimerEvent: {}
+[59.481011] (-) TimerEvent: {}
+[59.582172] (-) TimerEvent: {}
+[59.683377] (-) TimerEvent: {}
+[59.784570] (-) TimerEvent: {}
+[59.885744] (-) TimerEvent: {}
+[59.987034] (-) TimerEvent: {}
+[60.088218] (-) TimerEvent: {}
+[60.132032] (vesc_driver) StdoutLine: {'line': b'[100%] Built target vesc_device_namer\n'}
+[60.163821] (vesc_driver) CommandEnded: {'returncode': 0}
+[60.166921] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'install'}
+[60.167970] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pao/mushr2_ws/build/vesc_driver'], 'cwd': '/home/pao/mushr2_ws/build/vesc_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[60.188432] (-) TimerEvent: {}
+[60.189863] (vesc_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.190369] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node\n'}
+[60.192185] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""\n'}
+[60.192407] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include\n'}
+[60.192584] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver\n'}
+[60.192768] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/crc.hpp\n'}
+[60.193188] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp\n'}
+[60.193438] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp\n'}
+[60.193653] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp\n'}
+[60.193891] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp\n'}
+[60.194167] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp\n'}
+[60.194396] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp\n'}
+[60.194909] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh\n'}
+[60.195219] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv\n'}
+[60.195561] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/lib/libvesc_driver.so\n'}
+[60.216874] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_driver/lib/libvesc_driver.so" to ""\n'}
+[60.217474] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer\n'}
+[60.217912] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""\n'}
+[60.218202] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/launch\n'}
+[60.218565] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py\n'}
+[60.219957] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/params\n'}
+[60.220968] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml\n'}
+[60.221723] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver\n'}
+[60.222268] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver\n'}
+[60.222535] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh\n'}
+[60.222750] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv\n'}
+[60.223055] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/path.sh\n'}
+[60.223393] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv\n'}
+[60.223589] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.bash\n'}
+[60.223909] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.sh\n'}
+[60.224158] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh\n'}
+[60.224362] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv\n'}
+[60.224614] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.dsv\n'}
+[60.225017] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver\n'}
+[60.225374] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver\n'}
+[60.225722] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[60.226041] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[60.226321] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[60.226620] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake\n'}
+[60.226885] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake\n'}
+[60.227169] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.xml\n'}
+[60.232996] (vesc_driver) CommandEnded: {'returncode': 0}
+[60.288521] (-) TimerEvent: {}
+[60.289747] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 0}
+[60.388813] (-) TimerEvent: {}
+[60.489782] (-) TimerEvent: {}
+[60.590964] (-) TimerEvent: {}
+[60.692269] (-) TimerEvent: {}
+[60.793363] (-) TimerEvent: {}
+[60.895070] (-) TimerEvent: {}
+[60.996103] (-) TimerEvent: {}
+[61.097480] (-) TimerEvent: {}
+[61.198350] (-) TimerEvent: {}
+[61.300055] (-) TimerEvent: {}
+[61.401215] (-) TimerEvent: {}
+[61.502375] (-) TimerEvent: {}
+[61.603591] (-) TimerEvent: {}
+[61.704732] (-) TimerEvent: {}
+[61.805865] (-) TimerEvent: {}
+[61.906991] (-) TimerEvent: {}
+[62.008120] (-) TimerEvent: {}
+[62.109265] (-) TimerEvent: {}
+[62.210597] (-) TimerEvent: {}
+[62.311844] (-) TimerEvent: {}
+[62.411066] (vesc_ackermann) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_ackermann.so\x1b[0m\n'}
+[62.411882] (-) TimerEvent: {}
+[62.512615] (-) TimerEvent: {}
+[62.613727] (-) TimerEvent: {}
+[62.714843] (-) TimerEvent: {}
+[62.815961] (-) TimerEvent: {}
+[62.917129] (-) TimerEvent: {}
+[63.018308] (-) TimerEvent: {}
+[63.119626] (-) TimerEvent: {}
+[63.220832] (-) TimerEvent: {}
+[63.322038] (-) TimerEvent: {}
+[63.423240] (-) TimerEvent: {}
+[63.524382] (-) TimerEvent: {}
+[63.625544] (-) TimerEvent: {}
+[63.726736] (-) TimerEvent: {}
+[63.827944] (-) TimerEvent: {}
+[63.929151] (-) TimerEvent: {}
+[64.030293] (-) TimerEvent: {}
+[64.131451] (-) TimerEvent: {}
+[64.232467] (-) TimerEvent: {}
+[64.333345] (-) TimerEvent: {}
+[64.434235] (-) TimerEvent: {}
+[64.535034] (-) TimerEvent: {}
+[64.636012] (-) TimerEvent: {}
+[64.736972] (-) TimerEvent: {}
+[64.837860] (-) TimerEvent: {}
+[64.938833] (-) TimerEvent: {}
+[65.039851] (-) TimerEvent: {}
+[65.140797] (-) TimerEvent: {}
+[65.241858] (-) TimerEvent: {}
+[65.342757] (-) TimerEvent: {}
+[65.443733] (-) TimerEvent: {}
+[65.544703] (-) TimerEvent: {}
+[65.626859] (vesc_ackermann) StdoutLine: {'line': b'[100%] Built target vesc_ackermann\n'}
+[65.644908] (-) TimerEvent: {}
+[65.653931] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[65.656794] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'install'}
+[65.657752] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pao/mushr2_ws/build/vesc_ackermann'], 'cwd': '/home/pao/mushr2_ws/build/vesc_ackermann', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc_ackermann'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[65.679226] (vesc_ackermann) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[65.679811] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node\n'}
+[65.681585] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node" to ""\n'}
+[65.682093] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node\n'}
+[65.682896] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node" to ""\n'}
+[65.683115] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/include\n'}
+[65.683377] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann\n'}
+[65.683561] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp\n'}
+[65.683753] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp\n'}
+[65.684144] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh\n'}
+[65.684424] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv\n'}
+[65.684727] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/lib/libvesc_ackermann.so\n'}
+[65.721086] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/home/pao/mushr2_ws/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""\n'}
+[65.721820] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch\n'}
+[65.721984] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml\n'}
+[65.722467] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml\n'}
+[65.723321] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann\n'}
+[65.723791] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann\n'}
+[65.724129] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh\n'}
+[65.724448] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv\n'}
+[65.724750] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh\n'}
+[65.725031] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv\n'}
+[65.725309] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash\n'}
+[65.725585] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh\n'}
+[65.725872] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh\n'}
+[65.726129] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv\n'}
+[65.726392] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv\n'}
+[65.726756] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann\n'}
+[65.727118] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann\n'}
+[65.727515] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[65.727824] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[65.728104] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[65.728412] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake\n'}
+[65.728639] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake\n'}
+[65.728902] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml\n'}
+[65.734741] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[65.745099] (-) TimerEvent: {}
+[65.795755] (vesc_ackermann) JobEnded: {'identifier': 'vesc_ackermann', 'rc': 0}
+[65.799531] (vesc) JobStarted: {'identifier': 'vesc'}
+[65.828963] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'cmake'}
+[65.830509] (vesc) Command: {'cmd': ['/usr/bin/cmake', '/home/pao/mushr2_ws/src/vesc/vesc', '-DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc'], 'cwd': '/home/pao/mushr2_ws/build/vesc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[65.845224] (-) TimerEvent: {}
+[65.945792] (-) TimerEvent: {}
+[65.961558] (vesc) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[66.045880] (-) TimerEvent: {}
+[66.090021] (vesc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[66.112528] (vesc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[66.145978] (-) TimerEvent: {}
+[66.246351] (-) TimerEvent: {}
+[66.282644] (vesc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[66.307770] (vesc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[66.308697] (vesc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[66.310070] (vesc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[66.324455] (vesc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[66.346443] (-) TimerEvent: {}
+[66.446831] (-) TimerEvent: {}
+[66.516486] (vesc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[66.541993] (vesc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[66.543027] (vesc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[66.544731] (vesc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[66.546920] (-) TimerEvent: {}
+[66.552406] (vesc) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[66.647155] (-) TimerEvent: {}
+[66.747911] (-) TimerEvent: {}
+[66.848407] (-) TimerEvent: {}
+[66.928309] (vesc) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[66.948552] (-) TimerEvent: {}
+[67.049316] (-) TimerEvent: {}
+[67.150219] (-) TimerEvent: {}
+[67.251065] (-) TimerEvent: {}
+[67.341363] (vesc) StdoutLine: {'line': b'-- Configuring done\n'}
+[67.351156] (-) TimerEvent: {}
+[67.351646] (vesc) StdoutLine: {'line': b'-- Generating done\n'}
+[67.356966] (vesc) StdoutLine: {'line': b'-- Build files have been written to: /home/pao/mushr2_ws/build/vesc\n'}
+[67.374541] (vesc) CommandEnded: {'returncode': 0}
+[67.376685] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'build'}
+[67.377543] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pao/mushr2_ws/build/vesc', '--', '-j6', '-l6'], 'cwd': '/home/pao/mushr2_ws/build/vesc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[67.451512] (-) TimerEvent: {}
+[67.474565] (vesc) CommandEnded: {'returncode': 0}
+[67.476980] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'install'}
+[67.477665] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pao/mushr2_ws/build/vesc'], 'cwd': '/home/pao/mushr2_ws/build/vesc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pao'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/home/pao/mushr2_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pao'), ('OLDPWD', '/home/pao'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_IP', '10.42.0.1'), ('SYSTEMD_EXEC_PID', '2569'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pao/mushr2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pao'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pao:@/tmp/.ICE-unix/2372,unix/pao:/tmp/.ICE-unix/2372'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbff52b7_80bc_4885_b05d_278b8ab7d473'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pao/mushr2_ws/build/vesc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pao/mushr2_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble')]), 'shell': False}
+[67.499478] (vesc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[67.500527] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc\n'}
+[67.501475] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc\n'}
+[67.501807] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh\n'}
+[67.502239] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv\n'}
+[67.502504] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.sh\n'}
+[67.502896] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.dsv\n'}
+[67.503227] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.bash\n'}
+[67.503480] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.sh\n'}
+[67.503885] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.zsh\n'}
+[67.504112] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.dsv\n'}
+[67.504392] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/package.dsv\n'}
+[67.504674] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/packages/vesc\n'}
+[67.504955] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake\n'}
+[67.505227] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake\n'}
+[67.505447] (vesc) StdoutLine: {'line': b'-- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/package.xml\n'}
+[67.509414] (vesc) CommandEnded: {'returncode': 0}
+[67.551672] (-) TimerEvent: {}
+[67.556848] (vesc) JobEnded: {'identifier': 'vesc', 'rc': 0}
+[67.559358] (-) EventReactorShutdown: {}

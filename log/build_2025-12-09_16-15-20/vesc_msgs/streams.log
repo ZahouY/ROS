@@ -1,0 +1,33 @@
+[0.085s] Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[0.253s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.694s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.061s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.009s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.072s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.072s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.179s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.247s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.258s] -- Added test 'lint_cmake' to check CMake code style
+[4.271s] -- Added test 'xmllint' to check XML markup files
+[4.281s] -- Configuring done
+[4.403s] -- Generating done
+[4.436s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc_msgs
+[4.484s] Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[4.491s] Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6
+[4.602s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c[0m
+[4.634s] failed to create symbolic link '/home/pao/mushr2_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs' because existing path cannot be removed: Is a directory
+[4.634s] [  1%] Built target vesc_msgs__cpp
+[4.638s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vesc_msgs] Error 1
+[4.638s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/all] Error 2
+[4.638s] gmake[1]: *** Waiting for unfinished jobs....
+[4.675s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_cpp[0m
+[4.678s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[4.743s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[4.748s] gmake: *** [Makefile:146: all] Error 2
+[4.763s] Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6

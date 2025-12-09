@@ -1,0 +1,98 @@
+[0.029s] Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_driver
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.314s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.490s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.497s] -- Detecting CXX compiler ABI info
+[0.686s] -- Detecting CXX compiler ABI info - done
+[0.705s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.706s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.714s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.181s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.781s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.792s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.811s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.986s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.992s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.196s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.270s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.399s] -- Looking for pthread.h
+[2.613s] -- Looking for pthread.h - found
+[2.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.819s] -- Found Threads: TRUE  
+[3.121s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[3.124s] -- Found ASIO: /usr/include  
+[3.262s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.325s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.326s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.326s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.326s] -- Configured cppcheck include dirs: /home/pao/mushr2_ws/src/vesc/vesc_driver/include
+[3.326s] -- Configured cppcheck exclude dirs and/or files: 
+[3.326s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.326s] -- Configured cpplint exclude dirs and/or files: 
+[3.327s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.327s] -- Added test 'lint_cmake' to check CMake code style
+[3.327s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.329s] -- Added test 'uncrustify' to check C / C++ code style
+[3.329s] -- Configured uncrustify additional arguments: 
+[3.330s] -- Added test 'xmllint' to check XML markup files
+[3.336s] -- Configuring done
+[3.415s] -- Generating done
+[3.437s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc_driver
+[3.479s] Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_driver
+[3.480s] Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_driver -- -j6 -l6
+[3.616s] [35m[1mConsolidate compiler generated dependencies of target vesc_driver_node[0m
+[3.620s] [35m[1mConsolidate compiler generated dependencies of target vesc_driver[0m
+[3.678s] [ 20%] Built target vesc_driver_node
+[3.693s] [ 70%] Built target vesc_driver
+[3.732s] [35m[1mConsolidate compiler generated dependencies of target vesc_device_namer[0m
+[3.780s] [100%] Built target vesc_device_namer
+[3.807s] Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_driver -- -j6 -l6
+[3.811s] Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_driver
+[3.831s] -- Install configuration: ""
+[3.833s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[3.833s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include
+[3.834s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver
+[3.834s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[3.835s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[3.835s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[3.836s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[3.837s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[3.837s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[3.838s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[3.838s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[3.838s] -- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[3.839s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/lib/libvesc_driver.so
+[3.840s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[3.840s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/launch
+[3.840s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[3.848s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/params
+[3.849s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[3.849s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[3.849s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[3.850s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[3.850s] -- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[3.850s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[3.851s] -- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[3.852s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[3.853s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[3.853s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[3.854s] -- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[3.855s] -- Installing: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[3.855s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[3.855s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[3.856s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.856s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.857s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.858s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[3.858s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[3.859s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.xml
+[3.907s] Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_driver

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/requires.txt
+writing top-level names to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/top_level.txt
+reading manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mushr_joy_teleop/joy_to_speed.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop
+running install
+running install_lib
+copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_to_speed.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_to_speed.py to joy_to_speed.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_teleop script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+Installing joy_to_speed script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+writing list of installed files to '/home/pao/mushr2_ws/build/mushr_joy_teleop/install.log'

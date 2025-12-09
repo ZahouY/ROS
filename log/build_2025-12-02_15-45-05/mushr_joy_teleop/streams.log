@@ -1,0 +1,37 @@
+[1.698s] Invoking command in '/home/pao/mushr2_ws/src/mushr_joy_teleop': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data
+[2.311s] running egg_info
+[2.312s] creating ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info
+[2.313s] writing ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/PKG-INFO
+[2.313s] writing dependency_links to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/dependency_links.txt
+[2.314s] writing entry points to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/entry_points.txt
+[2.314s] writing requirements to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/requires.txt
+[2.314s] writing top-level names to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/top_level.txt
+[2.315s] writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+[2.320s] reading manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+[2.322s] writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+[2.322s] running build
+[2.322s] running build_py
+[2.323s] creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build
+[2.323s] creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib
+[2.323s] creating /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop
+[2.323s] copying mushr_joy_teleop/joy_teleop_node.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop
+[2.325s] copying mushr_joy_teleop/__init__.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop
+[2.325s] running install
+[2.326s] running install_lib
+[2.328s] creating /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[2.329s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_teleop_node.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[2.329s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/__init__.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[2.330s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_teleop_node.py to joy_teleop_node.cpython-310.pyc
+[2.332s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/__init__.py to __init__.cpython-310.pyc
+[2.333s] running install_data
+[2.333s] creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index
+[2.333s] creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index
+[2.333s] creating /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages
+[2.334s] copying resource/mushr_joy_teleop -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages
+[2.334s] copying package.xml -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop
+[2.334s] running install_egg_info
+[2.339s] Copying ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop-0.0.0-py3.10.egg-info
+[2.342s] running install_scripts
+[2.403s] Installing joy_teleop script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+[2.403s] writing list of installed files to '/home/pao/mushr2_ws/build/mushr_joy_teleop/install.log'
+[2.526s] Invoked command in '/home/pao/mushr2_ws/src/mushr_joy_teleop' returned '0': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+[0.031s] Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.286s] -- The CXX compiler identification is GNU 11.4.0
+[0.302s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.475s] -- Detecting C compile features
+[0.476s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.663s] -- Detecting CXX compiler ABI info - done
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.690s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.085s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.504s] -- Configuring done
+[1.511s] -- Generating done
+[1.517s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc
+[1.529s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[1.534s] Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[1.619s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[1.623s] Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc
+[1.641s] -- Install configuration: ""
+[1.641s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[1.642s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[1.644s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[1.645s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[1.645s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.sh
+[1.645s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/environment/path.dsv
+[1.645s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.bash
+[1.646s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.sh
+[1.646s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.zsh
+[1.647s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/local_setup.dsv
+[1.647s] -- Installing: /home/pao/mushr2_ws/install/vesc/share/vesc/package.dsv
+[1.648s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[1.648s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[1.650s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[1.653s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc/share/vesc/package.xml
+[1.654s] Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc

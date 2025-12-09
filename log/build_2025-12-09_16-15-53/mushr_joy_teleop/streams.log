@@ -1,0 +1,37 @@
+[1.752s] Invoking command in '/home/pao/mushr2_ws/build/mushr_joy_teleop': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pao/mushr2_ws/build/mushr_joy_teleop/build
+[2.451s] running develop
+[2.855s] Removing /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr-joy-teleop.egg-link (link to .)
+[2.958s] Invoked command in '/home/pao/mushr2_ws/build/mushr_joy_teleop' returned '0': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pao/mushr2_ws/build/mushr_joy_teleop/build
+[2.963s] Invoking command in '/home/pao/mushr2_ws/src/mushr_joy_teleop': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data --force
+[3.617s] running egg_info
+[3.618s] writing ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/PKG-INFO
+[3.627s] writing dependency_links to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/dependency_links.txt
+[3.628s] writing entry points to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/entry_points.txt
+[3.628s] writing requirements to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/requires.txt
+[3.628s] writing top-level names to ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/top_level.txt
+[3.637s] reading manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+[3.638s] writing manifest file '../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info/SOURCES.txt'
+[3.642s] running build
+[3.642s] running build_py
+[3.642s] copying mushr_joy_teleop/joy_to_speed_direct.py -> /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop
+[3.643s] running install
+[3.643s] running install_lib
+[3.643s] creating /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[3.644s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_teleop_node.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[3.645s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_to_speed_direct.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[3.645s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/joy_to_speed.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[3.645s] copying /home/pao/mushr2_ws/build/mushr_joy_teleop/build/lib/mushr_joy_teleop/__init__.py -> /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop
+[3.647s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_teleop_node.py to joy_teleop_node.cpython-310.pyc
+[3.649s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_to_speed_direct.py to joy_to_speed_direct.cpython-310.pyc
+[3.659s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/joy_to_speed.py to joy_to_speed.cpython-310.pyc
+[3.659s] byte-compiling /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop/__init__.py to __init__.cpython-310.pyc
+[3.660s] running install_data
+[3.660s] copying resource/mushr_joy_teleop -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/ament_index/resource_index/packages
+[3.660s] copying package.xml -> /home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop
+[3.660s] running install_egg_info
+[3.663s] Copying ../../build/mushr_joy_teleop/mushr_joy_teleop.egg-info to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages/mushr_joy_teleop-0.0.0-py3.10.egg-info
+[3.666s] running install_scripts
+[3.722s] Installing joy_teleop script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+[3.722s] Installing joy_to_speed_direct script to /home/pao/mushr2_ws/install/mushr_joy_teleop/lib/mushr_joy_teleop
+[3.722s] writing list of installed files to '/home/pao/mushr2_ws/build/mushr_joy_teleop/install.log'
+[3.852s] Invoked command in '/home/pao/mushr2_ws/src/mushr_joy_teleop' returned '0': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data --force

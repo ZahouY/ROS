@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acfbe439c651060660a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vesc_ackermann",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ackermann_to_vesc_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ackermann_to_vesc_node-0f4a53f202b68e323619.json",
+					"name" : "ackermann_to_vesc_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-151d4b3ae9bdc319af9c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_ackermann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_ackermann-7767f00d48642f609c9a.json",
+					"name" : "vesc_ackermann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_ackermann_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_ackermann_uninstall-134515a529d2f9538642.json",
+					"name" : "vesc_ackermann_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_to_odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_to_odom_node-bf9daecf2b95d36fc1db.json",
+					"name" : "vesc_to_odom_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pao/mushr2_ws/build/vesc_ackermann",
+		"source" : "/home/pao/mushr2_ws/src/vesc/vesc_ackermann"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

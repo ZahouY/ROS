@@ -1,0 +1,429 @@
+[0.308s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-clean-cache']
+[0.309s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=True, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbac4fa30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbae3cee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbae3cee0>>)
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.739s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pao/mushr2_ws'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/mushr_joy_teleop) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mushr_joy_teleop' with type 'ros.ament_python' and name 'mushr_joy_teleop'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ros'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ros'
+[0.804s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.875s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/pao/mushr2_ws/install
+[0.878s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_target' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_clean_cache' from command line to 'True'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'mushr_joy_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.044s] DEBUG:colcon.colcon_core.verb:Building package 'mushr_joy_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pao/mushr2_ws/build/mushr_joy_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pao/mushr2_ws/install/mushr_joy_teleop', 'merge_install': False, 'path': '/home/pao/mushr2_ws/src/mushr_joy_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'True'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.045s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pao/mushr2_ws/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pao/mushr2_ws/install/vesc_msgs', 'merge_install': False, 'path': '/home/pao/mushr2_ws/src/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.046s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[1.046s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[1.046s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'True'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.047s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pao/mushr2_ws/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pao/mushr2_ws/install/vesc_ackermann', 'merge_install': False, 'path': '/home/pao/mushr2_ws/src/vesc/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'True'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.048s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pao/mushr2_ws/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pao/mushr2_ws/install/vesc_driver', 'merge_install': False, 'path': '/home/pao/mushr2_ws/src/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'True'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pao/mushr2_ws/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pao/mushr2_ws/install/vesc', 'merge_install': False, 'path': '/home/pao/mushr2_ws/src/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[1.050s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.055s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pao/mushr2_ws/src/vesc/vesc_msgs' with build type 'ament_cmake'
+[1.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pao/mushr2_ws/src/vesc/vesc_msgs'
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.075s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pao/mushr2_ws/src/mushr_joy_teleop' with build type 'ament_python'
+[1.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('mushr_joy_teleop', 'ament_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/ament_prefix_path.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/ament_prefix_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/ament_prefix_path.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[1.888s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pao/mushr2_ws/src/mushr_joy_teleop'
+[1.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/mushr_joy_teleop': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pao/mushr2_ws/build/mushr_joy_teleop/build
+[4.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/mushr_joy_teleop' returned '0': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pao/mushr2_ws/build/mushr_joy_teleop/build
+[4.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/src/mushr_joy_teleop': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data --force
+[5.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/src/mushr_joy_teleop' returned '0': PYTHONPATH=/home/pao/mushr2_ws/build/mushr_joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mushr_joy_teleop build --build-base /home/pao/mushr2_ws/build/mushr_joy_teleop/build install --record /home/pao/mushr2_ws/build/mushr_joy_teleop/install.log --single-version-externally-managed install_data --force
+[5.264s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop' for CMake module files
+[5.267s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop' for CMake config files
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib'
+[5.270s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop/bin'
+[5.270s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/pkgconfig/mushr_joy_teleop.pc'
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop/lib/python3.10/site-packages'
+[5.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('mushr_joy_teleop', 'pythonpath')
+[5.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/pythonpath.ps1'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/pythonpath.dsv'
+[5.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/hook/pythonpath.sh'
+[5.277s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/mushr_joy_teleop/bin'
+[5.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mushr_joy_teleop)
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/package.ps1'
+[5.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/package.dsv'
+[5.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/package.sh'
+[5.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/package.bash'
+[5.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/mushr_joy_teleop/share/mushr_joy_teleop/package.zsh'
+[5.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/mushr_joy_teleop/share/colcon-core/packages/mushr_joy_teleop)
+[7.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_msgs
+[7.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6
+[8.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_msgs -- -j6 -l6
+[8.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_msgs
+[8.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[8.505s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs' for CMake module files
+[8.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_msgs
+[8.508s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs' for CMake config files
+[8.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[8.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[8.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[8.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[8.518s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib'
+[8.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[8.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[8.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[8.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/bin'
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[8.524s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[8.525s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/bin'
+[8.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[8.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[8.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[8.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[8.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[8.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[8.538s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs' for CMake module files
+[8.541s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs' for CMake config files
+[8.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[8.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[8.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[8.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[8.548s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib'
+[8.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[8.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[8.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[8.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[8.555s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/bin'
+[8.555s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[8.556s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[8.557s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_msgs/bin'
+[8.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[8.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[8.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[8.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[8.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[8.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[8.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pao/mushr2_ws/src/vesc/vesc_ackermann' with build type 'ament_cmake'
+[8.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pao/mushr2_ws/src/vesc/vesc_ackermann'
+[8.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pao/mushr2_ws/src/vesc/vesc_driver' with build type 'ament_cmake'
+[8.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pao/mushr2_ws/src/vesc/vesc_driver'
+[8.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_ackermann
+[8.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_driver
+[12.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_driver
+[12.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_driver -- -j6 -l6
+[13.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_ackermann
+[13.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_ackermann -- -j6 -l6
+[13.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_driver -- -j6 -l6
+[13.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_driver
+[13.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_ackermann -- -j6 -l6
+[13.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_ackermann
+[13.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[13.328s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver' for CMake module files
+[13.329s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver' for CMake config files
+[13.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[13.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[13.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_driver
+[13.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[13.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[13.351s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib'
+[13.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[13.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[13.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[13.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[13.360s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/bin'
+[13.360s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[13.361s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib/python3.10/site-packages'
+[13.362s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/bin'
+[13.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[13.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[13.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[13.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[13.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[13.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[13.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[13.374s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver' for CMake module files
+[13.376s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver' for CMake config files
+[13.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[13.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[13.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[13.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[13.381s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib'
+[13.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[13.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[13.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[13.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[13.388s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/bin'
+[13.388s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[13.389s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/lib/python3.10/site-packages'
+[13.390s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_driver/bin'
+[13.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[13.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[13.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[13.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[13.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[13.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[13.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[13.405s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann' for CMake module files
+[13.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_ackermann
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann' for CMake config files
+[13.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[13.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[13.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[13.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[13.416s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib'
+[13.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[13.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[13.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[13.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[13.420s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/bin'
+[13.420s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[13.421s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[13.422s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/bin'
+[13.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[13.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[13.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[13.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[13.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[13.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[13.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[13.435s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann' for CMake module files
+[13.436s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann' for CMake config files
+[13.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[13.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[13.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[13.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[13.443s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib'
+[13.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[13.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[13.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[13.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[13.448s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/bin'
+[13.448s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[13.449s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[13.450s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc_ackermann/bin'
+[13.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[13.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[13.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[13.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[13.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[13.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[13.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pao/mushr2_ws/src/vesc/vesc' with build type 'ament_cmake'
+[13.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pao/mushr2_ws/src/vesc/vesc'
+[13.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[15.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc
+[15.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[15.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc -- -j6 -l6
+[15.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pao/mushr2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc
+[15.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[15.676s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc' for CMake module files
+[15.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pao/mushr2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc
+[15.681s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc' for CMake config files
+[15.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[15.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[15.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[15.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[15.691s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/bin'
+[15.691s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[15.693s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/lib/python3.10/site-packages'
+[15.694s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/bin'
+[15.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.ps1'
+[15.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc/share/vesc/package.dsv'
+[15.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.sh'
+[15.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.bash'
+[15.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.zsh'
+[15.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc/share/colcon-core/packages/vesc)
+[15.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc' for CMake module files
+[15.711s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc' for CMake config files
+[15.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[15.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[15.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[15.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pao/mushr2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[15.717s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/bin'
+[15.717s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[15.718s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/lib/python3.10/site-packages'
+[15.719s] Level 1:colcon.colcon_core.environment:checking '/home/pao/mushr2_ws/install/vesc/bin'
+[15.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.ps1'
+[15.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pao/mushr2_ws/install/vesc/share/vesc/package.dsv'
+[15.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.sh'
+[15.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.bash'
+[15.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/pao/mushr2_ws/install/vesc/share/vesc/package.zsh'
+[15.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pao/mushr2_ws/install/vesc/share/colcon-core/packages/vesc)
+[15.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.731s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.750s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.750s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.802s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pao/mushr2_ws/install/local_setup.ps1'
+[15.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pao/mushr2_ws/install/_local_setup_util_ps1.py'
+[15.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pao/mushr2_ws/install/setup.ps1'
+[15.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pao/mushr2_ws/install/local_setup.sh'
+[15.833s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pao/mushr2_ws/install/_local_setup_util_sh.py'
+[15.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pao/mushr2_ws/install/setup.sh'
+[15.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pao/mushr2_ws/install/local_setup.bash'
+[15.844s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pao/mushr2_ws/install/setup.bash'
+[15.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pao/mushr2_ws/install/local_setup.zsh'
+[15.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pao/mushr2_ws/install/setup.zsh'

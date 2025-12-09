@@ -1,0 +1,88 @@
+[0.037s] Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_ackermann
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.476s] -- The CXX compiler identification is GNU 11.4.0
+[0.495s] -- Detecting C compiler ABI info
+[0.711s] -- Detecting C compiler ABI info - done
+[0.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.729s] -- Detecting C compile features
+[0.729s] -- Detecting C compile features - done
+[0.738s] -- Detecting CXX compiler ABI info
+[0.988s] -- Detecting CXX compiler ABI info - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.020s] -- Detecting CXX compile features
+[1.020s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.579s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.179s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.191s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.213s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.580s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.856s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.937s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.094s] -- Looking for pthread.h
+[3.328s] -- Looking for pthread.h - found
+[3.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.585s] -- Found Threads: TRUE  
+[4.070s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.145s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_ackermann` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[4.172s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.178s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.180s] -- Configured cppcheck include dirs: /home/pao/mushr2_ws/src/vesc/vesc_ackermann/include
+[4.181s] -- Configured cppcheck exclude dirs and/or files: 
+[4.186s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.187s] -- Configured cpplint exclude dirs and/or files: 
+[4.190s] -- Added test 'lint_cmake' to check CMake code style
+[4.195s] -- Added test 'uncrustify' to check C / C++ code style
+[4.196s] -- Configured uncrustify additional arguments: 
+[4.209s] -- Added test 'xmllint' to check XML markup files
+[4.228s] -- Configuring done
+[4.331s] -- Generating done
+[4.356s] -- Build files have been written to: /home/pao/mushr2_ws/build/vesc_ackermann
+[4.423s] Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pao/mushr2_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/pao/mushr2_ws/install/vesc_ackermann
+[4.430s] Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_ackermann -- -j6 -l6
+[4.573s] [35m[1mConsolidate compiler generated dependencies of target ackermann_to_vesc_node[0m
+[4.576s] [35m[1mConsolidate compiler generated dependencies of target vesc_ackermann[0m
+[4.596s] [35m[1mConsolidate compiler generated dependencies of target vesc_to_odom_node[0m
+[4.636s] [ 28%] Built target ackermann_to_vesc_node
+[4.658s] [ 71%] Built target vesc_ackermann
+[4.672s] [100%] Built target vesc_to_odom_node
+[4.710s] Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pao/mushr2_ws/build/vesc_ackermann -- -j6 -l6
+[4.728s] Invoking command in '/home/pao/mushr2_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_ackermann
+[4.761s] -- Install configuration: ""
+[4.761s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[4.761s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[4.762s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/include
+[4.763s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann
+[4.764s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[4.764s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[4.764s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[4.764s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[4.765s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[4.765s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[4.766s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[4.766s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[4.771s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[4.773s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[4.774s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[4.774s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[4.777s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[4.777s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[4.777s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[4.777s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[4.778s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[4.778s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[4.778s] -- Installing: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[4.779s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[4.779s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[4.780s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.780s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.781s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[4.781s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[4.781s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[4.782s] -- Up-to-date: /home/pao/mushr2_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[4.830s] Invoked command in '/home/pao/mushr2_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/pao/mushr2_ws/install/vesc_msgs:/home/pao/mushr2_ws/install/vesc:/home/pao/mushr2_ws/install/vesc_driver:/home/pao/mushr2_ws/install/vesc_ackermann:/home/pao/mushr2_ws/install/mushr_joy_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/pao/mushr2_ws/install/vesc_msgs/lib:/home/pao/mushr2_ws/install/vesc_driver/lib:/home/pao/mushr2_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pao/mushr2_ws/build/vesc_ackermann
